@@ -69,3 +69,50 @@
 //         }
 //     }
 // }
+
+// Функции
+// function declaration
+// function showFirstMesage(text) {
+//     console.log(text);
+// }
+// showFirstMesage("Hello world!");
+
+// function calc(a , b) {
+//     return (a + b);
+// }
+// console.log(calc(4, 3));
+// console.log(calc(5, 6));
+// console.log(calc(10, 6));
+
+//function expression
+
+// const logger = function() {
+//     console.log("Hello!");
+// };
+
+// logger();
+
+
+// Стрелочная функция
+
+// const calc = (a, b) => a + b;
+// const calc = (a, b) => {
+//     console.log('1');
+//     return a + b;
+// };
+
+const usdCurr = 28;
+const eurCurr = 32;
+const discount = 0.9;
+
+function convert(amount, curr) {
+    amount * curr;
+}
+
+function promotion(result) {
+        console.log(result * discount);
+}
+
+convert(500, usdCurr);
+convert(500, eurCurr);
+promotion(convert(500, usdCurr));
