@@ -101,18 +101,18 @@
 //     return a + b;
 // };
 
-const usdCurr = 28;
-const eurCurr = 32;
-const discount = 0.9;
+// const usdCurr = 28;
+// const eurCurr = 32;gi
+// const discount = 0.9;
 
-function convert(amount, curr) {
-    amount * curr;
-}
+// function convert(amount, curr) {
+//     return amount * curr;
+// }
 
-function promotion(result) {
-        console.log(result * discount);
-}
+// function promotion(result) {
+//         console.log(result * discount);
+// }
 
-convert(500, usdCurr);
-convert(500, eurCurr);
-promotion(convert(500, usdCurr));
+// convert(500, usdCurr);
+// convert(500, eurCurr);
+// promotion(convert(500, usdCurr));
