@@ -135,3 +135,17 @@
 // };
 
 // console.log(Object.keys(options).length);
+
+// forEach
+
+// const arr = [2, 4, 6, 8, 10];
+
+// arr.forEach(function(item, i, arr) {
+//     console.log(`${i}: ${item} внутри массива ${arr}`);
+// });
+
+// // for of 
+
+// for (let value of arr) {
+//     console.log(value);
+// }
